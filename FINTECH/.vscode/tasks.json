@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start React Dev Server",
+			"type": "shell",
+			"command": "cd fintech-interface; npm start",
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Install and Start React",
+			"type": "shell",
+			"command": "cd fintech-interface; npm install; npm start",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
