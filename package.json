@@ -1,0 +1,23 @@
+{
+  "name": "globepay",
+  "version": "1.0.0",
+  "description": "GlobePay — Universal Cross-Border Scan & Pay Platform",
+  "main": "backend/src/index.js",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd FINTECH/fintech-interface && npm start",
+    "build:frontend": "cd FINTECH/fintech-interface && npm run build",
+    "serve:frontend": "cd FINTECH/fintech-interface && node server.js",
+    "seed": "cd backend && node src/db/seed.js"
+  },
+  "keywords": [
+    "globepay",
+    "fintech",
+    "payments",
+    "cross-border",
+    "qr-pay",
+    "multi-currency"
+  ],
+  "author": "Upasana Roy",
+  "license": "MIT"
+}

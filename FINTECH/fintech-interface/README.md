@@ -1,6 +1,6 @@
-# GlobePay — Frontend Application
+# GlobePay
 
-Modern React + TypeScript single-page application for the **GlobePay** global 1-tap scan and payment platform.
+Modern React + TypeScript web application for the **GlobePay** global 1-tap scan and cross-border payment platform.
 
 ## Features
 - **Universal 1-Tap QR Scanner**: Interactive camera viewfinder with multi-currency recognition and instant settlement.

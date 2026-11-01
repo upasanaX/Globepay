@@ -22,3 +22,4 @@ npm start
 ```
 
 Health endpoint: `GET http://localhost:4000/api/health`
+

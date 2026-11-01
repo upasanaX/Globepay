@@ -74,7 +74,8 @@ Point your camera at **any merchant's QR code in any country**. GlobePay automat
 ## 🏗️ Architecture
 
 ```
-Globepay-frontend/
+globepay/
+├── package.json                  # Root workspace config
 ├── FINTECH/fintech-interface/    # React SPA Frontend
 │   ├── public/                   # Static assets, SVG favicons, manifest
 │   ├── src/
@@ -119,8 +120,8 @@ Globepay-frontend/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/upasanaX/Globepay-frontend.git
-cd Globepay-frontend
+git clone https://github.com/upasanaX/Globepay-frontend.git globepay
+cd globepay
 ```
 
 ### 2. Set Up the Backend
@@ -197,3 +198,4 @@ For rapid evaluation, the database comes pre-seeded with a complete account:
 ## 📄 License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
