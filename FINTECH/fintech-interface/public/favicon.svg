@@ -1,0 +1,40 @@
+<svg width="64" height="64" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gp_bg_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#4F46E5" />
+      <stop offset="50%" stopColor="#6366F1" />
+      <stop offset="100%" stopColor="#9333EA" />
+    </linearGradient>
+    <linearGradient id="gp_orbit_grad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#38BDF8" />
+      <stop offset="50%" stopColor="#818CF8" />
+      <stop offset="100%" stopColor="#C084FC" />
+    </linearGradient>
+    <linearGradient id="gp_core_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFFFFF" />
+      <stop offset="100%" stopColor="#E0E7FF" />
+    </linearGradient>
+    <linearGradient id="gp_pulse_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#34D399" />
+      <stop offset="100%" stopColor="#10B981" />
+    </linearGradient>
+    <linearGradient id="gp_sheen" x1="20%" y1="0%" x2="60%" y2="100%">
+      <stop offset="0%" stopColor="#FFFFFF" stopOpacity="0.3" />
+      <stop offset="100%" stopColor="#FFFFFF" stopOpacity="0" />
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="92" height="92" rx="24" fill="url(#gp_bg_grad)" />
+  <path d="M4 28 C 4 15 15 4 28 4 L 72 4 C 85 4 96 15 96 28 C 72 36 32 38 4 28 Z" fill="url(#gp_sheen)" />
+
+  <path d="M26 38 C 36 28 64 28 74 38" stroke="#E0E7FF" stroke-width="2.75" stroke-linecap="round" stroke-opacity="0.5" />
+  <path d="M28 64 C 38 72 62 72 72 64" stroke="#E0E7FF" stroke-width="2.75" stroke-linecap="round" stroke-opacity="0.5" />
+
+  <path d="M 50 20 C 33.4 20 20 33.4 20 50 C 20 66.6 33.4 80 50 80 C 64 80 75.8 70.5 79 57.5 L 53 57.5" stroke="url(#gp_core_grad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 53 27 C 67 27 78 35 78 46 C 78 57 66 65 52 65" stroke="url(#gp_orbit_grad)" stroke-width="4.5" stroke-linecap="round" />
+  <path d="M 48 57.5 L 56 50 L 48 42.5" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+
+  <circle cx="78" cy="36" r="4.5" fill="url(#gp_pulse_grad)" />
+  <circle cx="78" cy="36" r="7" stroke="#34D399" stroke-width="1.5" stroke-opacity="0.6" />
+</svg>
+
